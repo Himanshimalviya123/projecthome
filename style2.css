@@ -23,15 +23,35 @@
 #tophead{
     color: black;
 }
+#tophead ul li a:hover{
+    color: red;
+
+}
 #nav{
 display: flex;
 justify-content: space-between;
     background-color: deeppink;
     width:100% ;
     height:500px;
-    padding:15%;
-   
+    padding:5%;
+   font-size: xx-large;
     }
+ #nav .r h1{
+    color: white;
+ }
+ #nav .r p{
+    color: white;
+    font-size: small;
+ }
+ #nav  .r.btn1:hover{
+    color: white;
+   background-color:  rgb(140, 14, 14);
+   color:beige;
+   border: none;
+   padding: 10px 6px;
+ }
+ 
+
  
 p{
     width:50%;
@@ -41,6 +61,6 @@ p{
     height: 200vh;
 }
 #p .maindiv{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
+   
+    display: flexbox
+}
