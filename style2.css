@@ -20,6 +20,9 @@
     text-decoration: none;
     
 }
+#tophead ul li{
+    list-style-type: none;
+}
 #tophead{
     color: black;
 }
