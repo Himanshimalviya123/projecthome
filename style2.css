@@ -62,5 +62,6 @@ p{
 }
 #p .maindiv{
    
-    display: flexbox
+    display: flex;
+    justify-content: space-between;
 }
