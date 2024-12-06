@@ -30,12 +30,12 @@
     color: red;
 
 }
-#nav{
+#nav .r{
 display: flex;
 justify-content: space-between;
     background-color: deeppink;
     width:100% ;
-    height:500px;
+    /* height:500px; */
     padding:5%;
    font-size: xx-large;
    /* position: absolute; */
@@ -57,7 +57,7 @@ justify-content: space-between;
  }
 
 #nav  .r .u{
-    position: absolute;
+    /* position: absolute; */
 }
  
 
@@ -65,11 +65,20 @@ justify-content: space-between;
 #containt{
     width:100%;
 }     
-#containt .maindiv div{
-    width: 50px;
-    height: 50px;
+#containt .maindiv{
+    width: 100%;
+    /* height: 30px; */
     border: 2px solid black;
-    display: flex;
+     display: grid;
+    grid-template-columns: auto auto auto auto; 
+    justify-content: center;
+    gap: 10px;
 
     
+}
+
+#containt .maindiv div{
+    width: 280px;
+    height: 300px;
+    border: 1px solid black;
 }
