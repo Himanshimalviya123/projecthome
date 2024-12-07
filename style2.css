@@ -91,5 +91,9 @@ font-size:xx-large;
    
    border: none;
    padding: 5px  6px;
-  
+}
+#product{
+    background-color: cornflowerblue;
+    width:100%;
+    color:white;
 }
