@@ -87,3 +87,9 @@ justify-content: space-between;
 #containt h1{
 font-size:xx-large;
 }
+#containt .maindiv:hover{   
+   
+   border: none;
+   padding: 5px  6px;
+  
+}
