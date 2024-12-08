@@ -93,7 +93,36 @@ font-size:xx-large;
    padding: 5px  6px;
 }
 #product{
-    background-color: cornflowerblue;
-    width:100%;
+    margin-top: 10%;
+    margin-left: 5%;
+   margin-bottom: 5%; 
+    background-color:#7fd7eb;
+    width:90%;
     color:white;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#product .fbt{
+    padding: 3% 50px;
+    margin-top:30%;
+    background-color: #109dbd;
+    border: none;
+    color: white;
+    
+}
+#product .sbt{
+    padding: 3% 50px; 
+    background-color: white;
+    border: none;
+    
+}
+#product .fbt:hover{
+    background:transparent ;
+
+}
+#product .sbt:hover{
+    background:transparent;
 }
