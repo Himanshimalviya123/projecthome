@@ -126,3 +126,15 @@ font-size:xx-large;
 #product .sbt:hover{
     background:transparent;
 }
+#shop{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+#shop.shopdiv div{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    border: 2px solid black;
+}
