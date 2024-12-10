@@ -132,9 +132,11 @@ font-size:xx-large;
     display:flex;
     justify-content: center;
 }
-#shop.shopdiv div{
+.shopdiv div{
+    height: 100px;
+    
     display: flex;
     justify-content: center;
-    width: 10%;
+    width: 300px;
     border: 2px solid black;
 }
