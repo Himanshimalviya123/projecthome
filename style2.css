@@ -166,3 +166,9 @@ font-size:xx-large;
 display: flex;
 justify-content: center;
 } */
+#shopdiv .quet{
+    width: 200%;
+    height: 200px;
+    box-shadow: 15px 15px 0px 50px grey;
+}
+
