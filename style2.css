@@ -171,4 +171,39 @@ justify-content: center;
     height: 200px;
     box-shadow: 15px 15px 0px 50px grey;
 }
-
+#lay {
+    width:100%;
+    height: 100pv;
+    border: 2px solid black;
+}
+#lay{
+   
+        margin-top: 10%;
+        margin-left: 5%;
+       margin-bottom: 5%; 
+        background-color: #6f42c1;;
+        width:90%;
+        color:white;
+        display: flex;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+#conio{
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+        margin-left: 5%;
+       margin-bottom: 5%; 
+}
+#conio h1{
+    font-size:xx-large;
+    }
+#conio div{
+    display: flex;
+}
+#conio .corn{
+    padding-left: 20%;
+    font-size: xx-large;
+}
