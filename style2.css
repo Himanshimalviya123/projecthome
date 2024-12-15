@@ -193,9 +193,11 @@ justify-content: center;
 #conio{
     width: 100%;
     height: 100px;
+   
     margin-top: 10%;
         margin-left: 5%;
        margin-bottom: 5%; 
+       
 }
 #conio h1{
     font-size:xx-large;
@@ -206,4 +208,5 @@ justify-content: center;
 #conio .corn{
     padding-left: 20%;
     font-size: xx-large;
+
 }
