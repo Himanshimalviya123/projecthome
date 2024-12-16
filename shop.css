@@ -1,0 +1,32 @@
+#nav .r{
+    display: flex;
+    justify-content: space-between;
+        background-color: deeppink;
+        width:100% ;
+        /* height:500px; */
+        padding:5%;
+       font-size: xx-large;
+       /* position: absolute; */
+        }
+     #nav .r h1{
+        color: white;
+     }
+     #nav .r p{
+        width: 50%;
+        color: white;
+        font-size: small;
+     }
+     #nav  .r.btn1:hover{
+        color: white;
+       background-color:  rgb(140, 14, 14);
+       color:beige;
+       border: none;
+       padding: 10px 6px;
+     }
+    
+    #nav  .r .u{
+        /* position: absolute; */
+    }
+     
+    
+     
