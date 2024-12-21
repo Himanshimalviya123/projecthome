@@ -30,6 +30,7 @@
     color: red;
 
 }
+/* <==============nav ===================> */
 #nav .r{
 display: flex;
 justify-content: space-between;
@@ -59,7 +60,7 @@ justify-content: space-between;
 #nav  .r .u{
     /* position: absolute; */
 }
- 
+ /* <====================nav================> */
 
  
 #containt{
@@ -92,6 +93,7 @@ font-size:xx-large;
    border: none;
    padding: 5px  6px;
 }
+/* <============contain close==============> */
 #product{
     margin-top: 10%;
     margin-left: 5%;
@@ -184,7 +186,6 @@ justify-content: center;
 #lay{
    
         margin-top: 10%;
-        margin-left: 5%;
        margin-bottom: 5%; 
         background-color: #6f42c1;;
         width: 100%;
@@ -200,7 +201,7 @@ justify-content: center;
     /* height: 100px; */
    
     margin-top: 10%;
-        margin-left: 5%;
+        /* margin-left: 5%; */
        margin-bottom: 5%; 
        
 }
@@ -215,10 +216,13 @@ justify-content: center;
     font-size: xx-large;
 
 }
-#text .team{
+#test .team{
     width:90%;
     height:50vh;
-    border: 1px solid black;
+    border: 1px solid wheat;
+    box-shadow: -15px  -15px 10px 5px white ;
+    margin-bottom: 100px;
+    margin-left: 70px;
 }
 #test div h1{
     color: red; 
@@ -232,12 +236,17 @@ justify-content: center;
     
     background-color: gray;
     
+    
 }
-#connect .offer div{
-    width: 200px;
+.offer{
+    display: flex;
+    justify-content: space-around;
+}
+.offer div{
+    width: 300px;
     height: 300px;
     border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(4,200px);
-    align-items: center;
+    display :flex;
+    justify-content: center;
+    
 }

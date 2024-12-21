@@ -1,0 +1,14 @@
+#test .team{
+    width:90%;
+    height:50vh;
+    border: 1px solid wheat;
+    box-shadow: -15px  -15px 10px 5px white ;
+    margin-bottom: 100px;
+    margin-left: 70px;
+}
+#test div h1{
+    color: red; 
+}
+#test div h2{
+    color:gray; 
+}
