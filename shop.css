@@ -3,7 +3,7 @@
 }     
 #containt .maindiv{
    width: 100%;
-   border: 2px solid black;
+   /* border: 2px solid black; */
     display: grid;
    grid-template-columns: auto auto auto auto; 
    justify-content: center;
@@ -19,6 +19,6 @@
 font-size:xx-large;
 }
 #containt .maindiv:hover{   
-  border: none;
   padding: 5px  6px;
+  
 }
