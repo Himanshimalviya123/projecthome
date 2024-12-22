@@ -1,0 +1,55 @@
+#tophead h1{
+    align-items: centerg;
+}
+#tophead{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+#tophead ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#tophead ul li{
+    list-style-type: none;
+}
+#tophead{
+    color: black;
+}
+#tophead ul li a:hover{
+    color: red;
+
+}
+/* <=========================navbar css codes ends==============> */
+/* <==============tophead css codes starts ===================> */
+
+#nav .r{
+display: flex;
+justify-content: space-between;
+    background-color: deeppink;
+    width:100% ;
+    /* height:500px; */
+    padding:5%;
+   font-size: xx-large;
+   /* position: absolute; */
+    }
+ #nav .r h1{
+    color: white;
+ }
+ #nav .r p{
+    width: 50%;
+    color: white;
+    font-size: small;
+ }
+ #nav  .r.btn1:hover{
+    color: white;
+   background-color:  rgb(140, 14, 14);
+   color:beige;
+   border: none;
+   padding: 10px 6px;
+ }
