@@ -1,0 +1,15 @@
+#conio{
+    width: 100%;
+    margin-top: 10%;
+       margin-bottom: 5%; 
+    }
+#conio h1{
+    font-size:xx-large;
+    }
+#conio div{
+    display: flex;
+}
+#conio .corn{
+    padding-left: 20%;
+    font-size: xx-large;
+}
