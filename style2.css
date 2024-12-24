@@ -274,7 +274,8 @@ z
         width: 100%;
         /* border: 2px solid black; */
          display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
+fl
         justify-content: center;
         gap: 10px;
         flex-wrap: wrap;
