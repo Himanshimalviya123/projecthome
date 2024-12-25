@@ -30,3 +30,51 @@
     width: 100%;
     box-shadow: 15px 15px 0px 50px grey;
 }
+/* <=========================media qquery ==========================> */
+
+/* <====================why us shop starts=======================> */
+#shop{
+    width: 450px;
+    height: auto;
+    overflow-x: hidden !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+.shopdiv div{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    }
+#shop .shophead{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap ;
+
+    }
+#shop .shopdiv
+{
+
+    display: flex;
+    justify-content: center;
+    gap: 2%; ;
+    margin-top: 70px;
+    width: 100%;
+    height: 250px;
+   }
+#shopdiv .quet{
+    width: 100%;
+    box-shadow: 15px 15px 0px 50px grey;
+}
+/* <=============================why us shop ends======================> */

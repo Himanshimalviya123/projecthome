@@ -49,3 +49,42 @@
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
 }
+/* <=========================media uery starts===========================> */
+ /* =======================product starts============================== */
+ #product{
+    margin-top: 10%;
+    /* margin-left: 5%; */
+    margin-bottom: 5%; 
+    background-color: #7fd7eb;
+    width:100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+/* <============================products ends===========================> */
+/* <======================lay section purple starts================> */
+#lay {
+    width:100%;
+    height: auto;
+    border: 2px solid black;
+    overflow-x: hidden !important;
+}
+#lay{
+   
+        margin-top: 10%;
+       margin-bottom: 5%; 
+        background-color: #6f42c1;;
+        width: 100%;
+        color:white;
+        display: flex;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+/* <==========================lay section ends=================> */

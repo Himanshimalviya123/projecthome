@@ -53,3 +53,55 @@ justify-content: space-between;
    border: none;
    padding: 10px 6px;
  }
+ /* <====================media query starts========================> */
+ @media(max-width:450px){
+    #bars{
+        position: absolute;
+        top: 4%;
+        right: 10%;
+        font-size: 40px;
+        color:black;
+        /* z-index: 50; */
+    }
+ 
+  /* <=========================tophead media query==========================> */ */
+#tophead ul{
+        display: flex;
+     }
+    #tophead #logo{
+        display:none;
+    }
+     #tophead ul{
+        font-size: 10px;
+    }
+   #inp:checked~#tophead  ul{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right:1%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color: black;
+     }
+     /* <=======================tophead close home=================> */
+     #nav .r{
+        display:flex;
+      justify-content: center;
+          background-color: deeppink;
+          width:100% ;
+          /* height:500px; */
+          padding:15%;
+         font-size: large;
+         /* position: absolute; */
+         /* overflow-x: hidden !important; */
+          }
+          #nav .r p{
+              width: 30%;
+              color: white;
+              font-size: small;
+           }
+          .homeimg img{
+          margin-right: 0px;
+          }
+/* <==========================narbar close=======================> */
+        }

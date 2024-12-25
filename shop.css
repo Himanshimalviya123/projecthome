@@ -22,3 +22,59 @@ font-size:xx-large;
   padding: 5px  6px;
   
 }
+/* <========================media uery starts======================> */
+ /* ======================latest product starts==============================  */
+ #containt .maindiv{
+   width: 300px;
+   height: 300px;
+    border: 2px solid black; 
+    display: grid;
+   grid-template-columns: 1fr;
+
+   align-items: center; 
+
+   justify-content: center; 
+   gap: 10px;
+   flex-wrap: wrap; 
+}
+.maindiv div img{
+   width: 60px;
+   height: 90px;
+   align-items:center ;
+   background-color: 2px solid black;
+   border-radius: 13px;
+   margin: 10px;
+}
+#connect .maundiv button{
+color: brown;
+align-items: center;
+}
+/* <=========================latest product ends========================> */
+      /* <==========================media query starts======================> */
+       /* ======================latest product starts==============================  */
+    #containt .maindiv{
+      width: 300px;
+      height: 300px;
+       border: 2px solid black; 
+       display: grid;
+      grid-template-columns: 1fr;
+  
+      align-items: center; 
+
+      justify-content: center; 
+      gap: 10px;
+      flex-wrap: wrap; 
+  }
+  .maindiv div img{
+      width: 60px;
+      height: 90px;
+      align-items:center ;
+      background-color: 2px solid black;
+      border-radius: 13px;
+      margin: 10px;
+  }
+  #connect .maundiv button{
+color: brown;
+align-items: center;
+  }
+  /* <=========================latest product ends========================> */

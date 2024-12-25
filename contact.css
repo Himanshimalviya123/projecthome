@@ -13,3 +13,32 @@
     padding-left: 20%;
     font-size: xx-large;
 }
+/* <==================media query starts===========================>  */
+#conio{
+    width: 100%;
+    margin-top: 10%;
+       margin-bottom: 5%; 
+       padding-left: 40px;
+      /* overflow-x: hidden !important;*/
+      display: flex;
+      justify-items: center;
+      align-items: center;
+     flex-direction: column;
+     }
+    #conio div .corn{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+       flex-direction: column;
+      }
+#conio h1{
+    font-size:xx-large;
+    }
+#conio div{
+    display: flex;
+}
+#conio .corn{
+    padding-left: 20%;
+    font-size: xx-large;
+}
+/* <=========================contacts us ends======================> */
