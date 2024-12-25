@@ -367,8 +367,8 @@ font-size:xx-large;
 
 
         .box2 div{
-            width: 100px;
-            height:200px;
+            width: 300px;
+            height:300px;
             border: 1px solid black;
             display: flex;
             justify-content: center;
