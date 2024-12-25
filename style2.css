@@ -316,6 +316,7 @@ fl
         gap: 10px;
         flex-wrap: wrap;
     }
+    /* <=======================footer===============> */
     #connect{
         width:100%;
         height: auto;
@@ -354,7 +355,7 @@ fl
             box-shadow: -15px  -15px 10px 5px white ;
             margin-bottom: 100px;
             margin-left: 20px;
-            overflow-x: hidden !important;
+            /* overflow-x: hidden !important; */
         }
         #test div h1{
             color: red; 
