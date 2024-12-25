@@ -359,8 +359,8 @@ font-size:xx-large;
 
 
         .box2 div{
-            width: 250px;
-            height:100px;
+            width: 100px;
+            height:200px;
             border: 1px solid black;
             display: flex;
             justify-content: center;
@@ -371,12 +371,12 @@ font-size:xx-large;
         }
         /* <=====================footer media end==========================> */
         #test .team{
-            width:60%;
+            width:100%;
             border: 1px solid wheat;
             box-shadow: -15px  -15px 10px 5px white ;
-            margin-bottom: 100px;
+            margin-bottom: 10px;
             margin-left: 5px;
-            overflow-x: hidden !important;
+            /* overflow-x: hidden !important; */
         }
         #test div h1{
             color: red; 
@@ -385,7 +385,7 @@ font-size:xx-large;
             color:gray; 
         }
         #test .team p{
-            width: 50%;
+            width 50%;
         }
         #conio{
             width: 100%;
@@ -553,18 +553,18 @@ font-size:xx-large;
             flex-wrap: wrap;
         }
         .maindiv div img{
-            width: 400px;
-            height: 300px;
+            width: 200px;
+            height: 100px;
             background-color: 2px solid black;
             border-radius: 13px;
             margin: 10px;
         }
-========================================================
+=====================================================
               #product{
             margin-top: 10%;
             /* margin-left: 5%; */
-           margin-bottom: 5%; 
-            background-color:#7fd7eb;
+            margin-bottom: 5%; 
+            background-color: #7fd7eb;
             width:100%;
             color:white;
             display: flex;
