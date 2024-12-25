@@ -256,27 +256,17 @@ font-size:xx-large;
         color:black;
         z-index: 50;
     }
-
-
-
-    #tophead ul{
-        display: flex; 
-        /* flex-direction: column ;
-        gap: 5px; */
-
-    }
-
-
-   
+/* <=========================tophead media query==========================> */
+#tophead ul{
+        display: flex;
+     }
     #tophead #logo{
         display:none;
     }
-     
-    #tophead ul{
+     #tophead ul{
         font-size: 10px;
     }
-   
-    #inp:checked~#tophead  ul{
+   #inp:checked~#tophead  ul{
         display: block;
         position: absolute;
         top: 50px;
@@ -285,8 +275,8 @@ font-size:xx-large;
         border-radius: 10px;
        background-color: black;
      }
-
-
+     /* <=======================tophead close home=================> */
+     /* <=============================nav bar down=================> */
     #nav .r{
           display:flex;
         justify-content: center;
@@ -298,22 +288,16 @@ font-size:xx-large;
            /* position: absolute; */
            /* overflow-x: hidden !important; */
             }
-
             #nav .r p{
                 width: 30%;
                 color: white;
                 font-size: small;
              }
-
-
-
-    .homeimg img{
-        margin-right: 0px;
-    }
-
-
-
-    /* ====================================================  */
+            .homeimg img{
+            margin-right: 0px;
+            }
+/* <==========================narbar close=======================> */
+ /* ======================latest product starts==============================  */
     #containt .maindiv{
         width: 450px;
         height: auto;
@@ -334,12 +318,140 @@ font-size:xx-large;
         border-radius: 13px;
         margin: 10px;
     }
-    #containt .maindiv {
-        
-    } 
+    /* <=========================latest product ends========================> */
+            /* =======================product starts============================== */
+            #product{
+                margin-top: 10%;
+                /* margin-left: 5%; */
+                margin-bottom: 5%; 
+                background-color: #7fd7eb;
+                width:100%;
+                color:white;
+                display: flex;
+                flex-direction: column;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px; 
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                
+            }
+            /* <============================products ends===========================> */
+            /* <====================why us shop starts=======================> */
+    #shop{
+        width: 450px;
+        height: auto;
+        overflow-x: hidden !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        }
+    .shopdiv div{
+            display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border: 2px solid black;
+        }
+    #shop .shophead{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap ;
 
-
-
+        }
+    #shop .shopdiv
+    {
+    
+        display: flex;
+        justify-content: center;
+        gap: 2%; ;
+        margin-top: 70px;
+        width: 100%;
+        height: 250px;
+       }
+    #shopdiv .quet{
+        width: 100%;
+        box-shadow: 15px 15px 0px 50px grey;
+    }
+    /* <=============================why us shop ends======================> */
+  
+    /* <======================lay section purple starts================> */
+    #lay {
+        width:100%;
+        height: auto;
+        border: 2px solid black;
+        overflow-x: hidden !important;
+    }
+    #lay{
+       
+            margin-top: 10%;
+           margin-bottom: 5%; 
+            background-color: #6f42c1;;
+            width: 100%;
+            color:white;
+            display: flex;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px; 
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+    }
+    /* <==========================lay section ends=================> */
+    /* <===================contact us starts========================> */
+    #conio{
+        width: 100%;
+        margin-top: 10%;
+           margin-bottom: 5%; 
+           padding-left: 40px;
+          /* overflow-x: hidden !important;*/
+          display: flex;
+          justify-items: center;
+          align-items: center;
+         flex-direction: column;
+         }
+        #conio div .corn{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+           flex-direction: column;
+          }
+    #conio h1{
+        font-size:xx-large;
+        }
+    #conio div{
+        display: flex;
+    }
+    #conio .corn{
+        padding-left: 20%;
+        font-size: xx-large;
+    }
+    /* <=========================contacts us ends======================> */
+   /* <=====================testimonal starts===================> */
+    #test .team{
+        width:100%;
+        border: 1px solid wheat;
+        box-shadow: -15px  -15px 10px 5px white ;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        /* overflow-x: hidden !important; */
+    }
+    #test div h1{
+        color: red; 
+    }
+    #test div h2{
+        color:gray; 
+    }
+    #test .team p{
+        width 50%;
+    }
+    /* <======================testimonal ends===================> */
     /* <=======================footer===============> */
     #connect{
         width:100%;
@@ -378,212 +490,6 @@ font-size:xx-large;
             padding-right: 20px;
         }
         /* <=====================footer media end==========================> */
-        #test .team{
-            width:100%;
-            border: 1px solid wheat;
-            box-shadow: -15px  -15px 10px 5px white ;
-            margin-bottom: 10px;
-            margin-left: 5px;
-            /* overflow-x: hidden !important; */
-        }
-        #test div h1{
-            color: red; 
-        }
-        #test div h2{
-            color:gray; 
-        }
-        #test .team p{
-            width 50%;
-        }
-        #conio{
-            width: 100%;
-            margin-top: 10%;
-               margin-bottom: 5%; 
-               padding-left: 40px;
-              /* overflow-x: hidden !important;*/
-              display: flex;
-              justify-items: center;
-              align-items: center;
-             flex-direction: column;
-            
-
-            
-            }
-            #conio div .corn{
-                display: flex;
-                justify-items: center;
-                align-items: center;
-               flex-direction: column;
-              
-
-            }
-        #conio h1{
-            font-size:xx-large;
-            }
-        #conio div{
-            display: flex;
-        }
-        #conio .corn{
-            padding-left: 20%;
-            font-size: xx-large;
-        }
-        #lay {
-            width:100%;
-            height: auto;
-            border: 2px solid black;
-            overflow-x: hidden !important;
-        }
-        #lay{
-           
-                margin-top: 10%;
-               margin-bottom: 5%; 
-                background-color: #6f42c1;;
-                width: 100%;
-                color:white;
-                display: flex;
-                border-top-right-radius: 20px;
-                border-bottom-left-radius: 20px; 
-                border-top-left-radius: 20px;
-                border-bottom-right-radius: 20px;
-        }
-        #shop{
-            width: 450px;
-            height: auto;
-            overflow-x: hidden !important;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            }
-        .shopdiv div{
-                display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            border: 2px solid black;
-            }
-        #shop .shophead{
-            display: flex;
-            justify-content: center;
-            font-size: xx-large;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            flex-direction: column;
-            flex-wrap: wrap ;
-
-            }
-        #shop .shopdiv
-        {
-        
-            display: flex;
-            justify-content: center;
-            gap: 2%; ;
-            margin-top: 70px;
-            width: 100%;
-            height: 250px;
-           
-        }
-        #shopdiv .quet{
-            width: 100%;
-            box-shadow: 15px 15px 0px 50px grey;
-        }
-        
-    
-        
-        
-        /* #containt{
-            width:100%;
-            /* overflow-x: hidden !important; */
-        /* }     
-        #containt .maindiv{
-            width:auto;
-            height: 10px;
-            /* border: 2px solid black; */
-             /* display: grid;
-            grid-template-columns: 1fr; 
-            justify-content: center;
-            gap: 10px;
-        }
-        
-        #containt .maindiv div{
-            height: 300px;
-            border: 1px solid black;
-            padding-left: 5%;
-
-            }
-        #containt h1{
-        font-size:xx-large;
-        }
-        #containt .maindiv:hover{   
-           padding: 5px  6px;
-        }    */ 
-        /* #containt .maindiv .one{
-            width: 0%;
-            height: auto;
-            padding-left: 10px;
-        }
-        #containt .maindiv .two{
-            width: 5%;
-            height: auto;
-            padding-left: 10px;
-        } */
-        /* #containt .maindiv div{
-            width: 100px;
-            height:200px;
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-left: 20px;
-            padding-right: 20px;
-        } */
-        
-        /* #containt .maindiv.one img{
-            height: none;
-            align-items: center;
-            padding-left: 10px;
-        }
-        #containt .maindiv.two img{
-           
-           width:-10px;
-            height: none;
-            align-items: center;
-            padding-left: 10px;
-        }
-        #containt .maindiv{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .maindiv div img{
-            width: 200px;
-            height: 100px;
-            background-color: 2px solid black;
-            border-radius: 13px;
-            margin: 10px;
-        } */
-/* ===================================================== */
-              #product{
-            margin-top: 10%;
-            /* margin-left: 5%; */
-            margin-bottom: 5%; 
-            background-color: #7fd7eb;
-            width:100%;
-            color:white;
-            display: flex;
-            flex-direction: column;
-            border-top-right-radius: 20px;
-            border-bottom-left-radius: 20px; 
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            
-        }
-     }
+             }
     
 
