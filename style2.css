@@ -316,7 +316,7 @@ font-size:xx-large;
     /* ====================================================  */
     #containt .maindiv{
         width: 450px;
-        height: 150px;
+        height: 800px;
          border: 2px solid black; 
          display: grid;
         grid-template-columns: 1fr;
