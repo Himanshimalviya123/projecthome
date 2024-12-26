@@ -77,4 +77,28 @@ align-items: center;
 color: brown;
 align-items: center;
   }
+  #containt .maindiv .one{
+   background-color:burlywood;
+}
+#containt .maindiv .two{
+   background-color: aqua ;
+}
+#containt .maindiv .three{
+   background-color: cadetblue;
+}
+#containt .maindiv .four{
+   background-color: burlywood;
+}
+#containt .maindiv .five{
+   background-color: lightcoral;
+}
+#containt .maindiv .six{
+   background-color: lightskyblue;
+}
+#containt .maindiv .seven{
+   background-color:  aquamarine;
+}
+#containt .maindiv .eight{
+   background-color: plum;
+}
   /* <=========================latest product ends========================> */
