@@ -91,7 +91,31 @@ font-size:xx-large;
    padding: 5px  6px;
    
 }
-/* <============gifts shop close==============> */
+#containt .maindiv .one{
+    background-color: #109dbd;
+}
+#containt .maindiv .two{
+    background-color: #109dbd;
+}
+#containt .maindiv .three{
+    background-color: #109dbd;
+}
+#containt .maindiv .four{
+    background-color: #109dbd;
+}
+#containt .maindiv .five{
+    background-color: #109dbd;
+}
+#containt .maindiv .six{
+    background-color: #109dbd;
+}
+#containt .maindiv .seven{
+    background-color: #109dbd;
+}
+#containt .maindiv .eight{
+    background-color: #109dbd;
+}
+ /* <============gifts shop close==============> */ */
 /* <=================product css codes starts======================> */
 #product{
     margin-top: 10%;
@@ -294,33 +318,13 @@ font-size:xx-large;
                 font-size: small;
              }
             .homeimg img{
-            margin-right: 0px;
+            margin-right: 10px;
             }
 /* <==========================narbar close=======================> */
  /* ======================latest product starts==============================  */
-    /* #containt .maindiv{
-        width: 300px;
-        height: auto;
-         border: 2px solid black; 
-         display: grid;
-        grid-template-columns: 1fr;
-    
-        align-items: center; 
-
-        justify-content: center; 
-        gap: 10px;
-        flex-wrap: wrap; 
-    }
-    .maindiv div img{
-        width: 60px;
-        height: 90px;
-        background-color: 2px solid black;
-        border-radius: 13px;
-        margin: 10px;
-    } */
     #containt .maindiv{
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: auto;
          border: 2px solid black; 
          display: grid;
         grid-template-columns: 1fr;
@@ -330,12 +334,12 @@ font-size:xx-large;
         flex-wrap: wrap; 
      }
      .maindiv div img{
-        width: 60px;
+        width: 100px;
         height: 90px;
         align-items:center ;
         background-color: 2px solid black;
         border-radius: 13px;
-        margin: 10px;
+        margin:40px;
      }
     /* <=========================latest product ends========================> */
     /* <====================why us shop starts=======================> */
@@ -511,6 +515,7 @@ font-size:xx-large;
           justify-items: center;
           align-items: center;
          flex-direction: column;
+         background-color:lightslategray;
          }
         #conio div .corn{
             display: flex;
@@ -535,8 +540,8 @@ font-size:xx-large;
         border: 1px solid wheat;
         box-shadow: -15px  -15px 10px 5px white ;
         margin-bottom: 10px;
-        margin-left: 5px;
-        /* overflow-x: hidden !important; */
+        margin-left: 1px; 
+        overflow-x: hidden !important;
     }
     #test div h1{
         color: red; 
