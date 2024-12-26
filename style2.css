@@ -92,22 +92,22 @@ font-size:xx-large;
    
 }
 #containt .maindiv .one{
-    background-color: #4a5153;
+    background-color:burlywood;
 }
 #containt .maindiv .two{
-    background-color: #4a5153 ;
+    background-color: aqua ;
 }
 #containt .maindiv .three{
-    background-color: #4a5153;
+    background-color: cadetblue;
 }
 #containt .maindiv .four{
-    background-color: #4a5153;
+    background-color: burlywood;
 }
 #containt .maindiv .five{
-    background-color:  #4a5153;
+    background-color: lightcoral;
 }
 #containt .maindiv .six{
-    background-color:  #4a5153;
+    background-color: lightskyblue;
 }
 #containt .maindiv .seven{
     background-color:  aquamarine;
@@ -515,7 +515,7 @@ font-size:xx-large;
           justify-items: center;
           align-items: center;
          flex-direction: column;
-         background-color:lightslategray;
+         background-color:burlywood;
          }
         #conio div .corn{
             display: flex;
