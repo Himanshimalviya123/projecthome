@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Oleo Script", system-ui;
+    scroll-behavior: smooth;
+ 
    
     }
     /* <=================navbar css codes starts=================> */
@@ -35,6 +38,10 @@
 #tophead ul li a:hover{
     color: red;
 
+
+}
+.homeimg img{
+    padding: 5%;
 }
 
 /* <=========================navbar css codes ends==============> */
@@ -66,6 +73,7 @@ justify-content: space-between;
    border: none;
    padding: 10px 6px;
  }
+ 
  
  /* <====================tophead css code ends================> */
  /* <=================gifts shop starts====================> */
@@ -101,33 +109,179 @@ font-size:xx-large;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 #containt .maindiv .one div{
-    margin-top: 25%;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+ 
+}
+#containt .maindiv .one img{
+    width:70%;
+    height:200px;
+    align-items: center;
+    padding-left: 10%;
+ 
+
+}
+
+#containt .maindiv .two{
+    width: 100%;
+    background-color: aqua ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#containt .maindiv .two div{
+    margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-#containt .maindiv .two{
-    background-color: aqua ;
+#containt .maindiv .two img{
+    width:60%;
+    height:150px;
+    align-items: center;
+    padding-left: 20%;
+
 }
 #containt .maindiv .three{
     background-color: cadetblue;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#containt .maindiv .three div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 10%; */
+}
+#containt .maindiv .three img{
+    width:70%;
+    height:150px;
+    align-items: center;
+    padding-left: 10%;
+
 }
 #containt .maindiv .four{
     background-color: burlywood;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#containt .maindiv .four div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30%;
+}
+#containt .maindiv .four img{
+    width:70%;
+    height:160px;
+    align-items: center;
+    padding-left: 10%;
+
+}
+
 #containt .maindiv .five{
     background-color: lightcoral;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#containt .maindiv .five div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+#containt .maindiv .five img{
+    width:70%;
+    height:150px;
+    align-items: center;
+    padding-left: 10%;
+
 }
 #containt .maindiv .six{
     background-color: lightskyblue;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#containt .maindiv .six div{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+#containt .maindiv .six img{
+    width:70%;
+    height:160px;
+    align-items: center;
+    padding-left: 15%;
+
 }
 #containt .maindiv .seven{
     background-color:  aquamarine;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#containt .maindiv .seven div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#containt .maindiv .seven img{
+    width:60%;
+    height:150px;
+    align-items: center;
+    padding-left: 25%;
+
 }
 #containt .maindiv .eight{
     background-color: plum;
+    width: 100%;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#containt .maindiv .eight div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#containt .maindiv .eight img{
+    width:70%;
+    height:150px;
+    align-items: center;
+    padding-left: 10%;
+
+}
+#containt .maindiv .even{
+    padding: 6% 30px;
+    background-color: rgb(140, 14, 14);
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
 }
  /* <============gifts shop close==============> */ */
 /* <=================product css codes starts======================> */
@@ -200,11 +354,14 @@ font-size:xx-large;
     margin-top: 70px;
     width: 100%;
     height: 250px;
+    background-color:darkseagreen;
 }
-#shopdiv .quet{
+#shop.shopdiv .quet{
     width: 100%;
     box-shadow: 15px 15px 0px 50px grey;
+
 }
+
 /* <===================================shopdiv css codes ends===================> */
 /* <======================lay css starts======================> */
 #lay {
@@ -271,6 +428,7 @@ font-size:xx-large;
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     margin-top: 10%;
       overflow-x: hidden !important;
     }
     #connect .box2{
@@ -366,6 +524,187 @@ font-size:xx-large;
         border-radius: 13px;
         margin:40px;
      }
+     #containt .maindiv .one{
+        width: 100%;
+        background-color:burlywood;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #containt .maindiv .one div{
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* margin-bottom: 10%; */
+     
+    }
+    #containt .maindiv .one img{
+        width:60%;
+        height:150px;
+        align-items: center;
+        padding-left: 10%;
+     
+    
+    }
+    
+    #containt .maindiv .two{
+        width: 100%;
+        background-color: aqua ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #containt .maindiv .two div{
+        margin-top: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+    }
+    #containt .maindiv .two img{
+        width:40%;
+        height:100px;
+        align-items: center;
+        padding-left: 15%;
+    
+    }
+    #containt .maindiv .three{
+        background-color: cadetblue;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .three div{
+        /* margin-top: 5%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+    }
+    #containt .maindiv .three img{
+        width:40%;
+        height:90px;
+        align-items: center;
+        padding-left: 20%;
+    
+    }
+    #containt .maindiv .four{
+        background-color: burlywood;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .four div{
+        /* margin-top: 5%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+    }
+    #containt .maindiv .four img{
+        width:50%;
+        height:90px;
+        align-items: center;
+        padding-left: 5%;
+    
+    }
+    
+    #containt .maindiv .five{
+        background-color: lightcoral;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .five div{
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+    }
+    #containt .maindiv .five img{
+        width:50%;
+        height:90px;
+        align-items: center;
+        padding-left: 10%;
+    
+    }
+    #containt .maindiv .six{
+        background-color: lightskyblue;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .six div{
+        margin-top: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+    }
+    #containt .maindiv .six img{
+        width:50%;
+        height:100px;
+        align-items: center;
+        padding-left: 15%;
+    
+    }
+    #containt .maindiv .seven{
+        background-color:  aquamarine;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .seven div{
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #containt .maindiv .seven img{
+        width:60%;
+        height:90px;
+        align-items: center;
+        padding-left: 25%;
+    
+    }
+    #containt .maindiv .eight{
+        background-color: plum;
+        width: 100%;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #containt .maindiv .eight div{
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #containt .maindiv .eight img{
+        width:60%;
+        align-items: center;
+        padding-left: 10%;
+    
+    }
+    #containt .maindiv .even{
+        padding: 6% 30px;
+        background-color: rgb(140, 14, 14);
+        border: 2px solid black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        
+    }
     /* <=========================latest product ends========================> */
     /* =======================product starts============================== */
     #product{
@@ -429,6 +768,7 @@ font-size:xx-large;
         margin-top: 70px;
         width: 100%;
         height:700px;
+        background-color:darkseagreen;
        }
     #shopdiv .quet{
         width: 100%;

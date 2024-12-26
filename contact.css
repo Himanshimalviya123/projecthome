@@ -1,20 +1,24 @@
+/* <======================conio css starts======================> */
 #conio{
     width: 100%;
     margin-top: 10%;
        margin-bottom: 5%; 
+       padding-left: 60px;
+       overflow-x: hidden !important;
     }
 #conio h1{
     font-size:xx-large;
     }
-#conio div{
-    display: flex;
+#conio div{splay: flex;
 }
 #conio .corn{
     padding-left: 20%;
     font-size: xx-large;
 }
+/* <=====================conio css codes ends=======================> */
 /* <==================media query starts===========================>  */
-#conio{
+ /* <===================contact us starts========================> */
+ #conio{
     width: 100%;
     margin-top: 10%;
        margin-bottom: 5%; 
@@ -24,6 +28,7 @@
       justify-items: center;
       align-items: center;
      flex-direction: column;
+     background-color:burlywood;
      }
     #conio div .corn{
         display: flex;
