@@ -123,13 +123,16 @@ font-size:xx-large;
    margin-bottom: 5%; 
     background-color:#7fd7eb;
     width:90%;
+    
+    
+    
     color:white;
     display: flex;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px; 
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 #product .fbt{
     padding: 3% 50px;
