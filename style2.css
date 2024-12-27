@@ -13,7 +13,7 @@
         display:none;
     }
 #tophead h1{
-    align-items: centerg;
+    align-items: center;
 }
 #tophead{
     width: 100%;
@@ -452,14 +452,17 @@ font-size:xx-large;
 /* <========================connect css codes ends=====================> */
 
 @media(max-width:450px){
+
+
     #bars{
         position: absolute;
         top: 0%;
-        right: 5%;
+        right: 10%;
         font-size: 40px;
         color:black;
         z-index: 50;
         display:block;
+        /* padding-right: 5%; */
 
     }
     #inp{
@@ -468,21 +471,29 @@ font-size:xx-large;
 /* <=========================tophead media query==========================> */
 #tophead ul{
         display: flex;
+        font-size: 10px;
      }
     #tophead #logo{
         display:none;
     }
-     #tophead ul{
-        font-size: 10px;
+
+
+    #tophead{
+        display: none;
     }
-   #inp:checked~#tophead  ul{
+
+   #inp:checked~ header nav #tophead{
         display: block;
         position: absolute;
-        top: 50px;
+        top: 44px;
         right:1%;
         padding: 20px;
         border-radius: 10px;
-       background-color: black;
+       background-color: cornsilk;
+     }
+
+     #inp:checked~main{
+        margin-top: 50px;
      }
      /* <=======================tophead close home=================> */
      /* <=============================nav bar down=================> */
@@ -843,6 +854,9 @@ font-size:xx-large;
     #conio .corn{
         padding-left: 20%;
         font-size: xx-large;
+    }
+    #conio .conttext{
+        display: none;
     }
     /* <=========================contacts us ends======================> */
    /* <=====================testimonal starts===================> */
