@@ -72,7 +72,37 @@ padding: 5%;
 }
 
 /* <===================================shopdiv css codes ends===================> */
+/* <==================connect css codes starts=====================> */
+#connect{
+    width:100%;
+    height: 80vh;
+    border: 1px solid black;
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 10%;
+     padding-left: 2%;
+      overflow-x: hidden !important;
+    }
+    #connect .box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box2 div{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
+/* <========================connect css codes ends=====================> */
 /* <=========================media qquery ==========================> */
 
 /* <====================why us shop starts=======================> */
