@@ -76,6 +76,20 @@ padding: 5%;
 /* <=========================media qquery ==========================> */
 
 /* <====================why us shop starts=======================> */
+@media(max-width:450px){
+    #bars{
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        font-size: 40px;
+        color:black;
+        z-index: 50;
+        display:block;
+
+    }
+    #inp{
+        display:none;
+    }
 #shop{
     width: 450px;
     height: auto;
@@ -122,4 +136,35 @@ padding: 5%;
     box-shadow: 15px 15px 0px 50px grey;
 }
 /* <=============================why us shop ends======================> */
+/* <==================connect css codes starts=====================> */
+#connect{
+    width:100%;
+    height: 80vh;
+    border: 1px solid black;
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 10%;
+     padding-left: 2%;
+      overflow-x: hidden !important;
+    }
+    #connect .box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box2 div{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
+/* <========================connect css codes ends=====================> */
+}
