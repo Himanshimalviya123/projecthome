@@ -329,7 +329,7 @@ font-size:xx-large;
 /* <==========================shopdiv css codes starts===================> */
 #shop{
     width: 100%;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     }
 .shopdiv div{
         display: flex;
@@ -804,7 +804,7 @@ font-size:xx-large;
         width: 100%;
         margin-top: 10%;
            margin-bottom: 5%; 
-           padding-left: 40px;
+           /* padding-left: 40px; */
           /* overflow-x: hidden !important;*/
           display: flex;
           justify-items: center;
@@ -858,7 +858,7 @@ font-size:xx-large;
          justify-content: center;
          align-items: center;
          flex-direction: column;
-          overflow-x: hidden !important;
+          /* overflow-x: hidden !important; */
         }
 
 
