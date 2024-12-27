@@ -1,3 +1,40 @@
+ /* <=================navbar css codes starts=================> */
+ #bars{
+    display:none;
+}
+#tophead h1{
+align-items: centerg;
+}
+#tophead{
+width: 100%;
+height: 50px;
+background-color: antiquewhite;
+/* overflow-x: hidden !important; */
+}
+#tophead ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+list-style-type: none;
+text-decoration: none;
+}
+#tophead ul li{
+list-style-type: none;
+}
+#tophead{
+color: black;
+}
+#tophead ul li a:hover{
+color: red;
+
+
+}
+.homeimg img{
+padding: 5%;
+}
+
+/* <=========================navbar css codes ends==============> */
 /* <======================conio css starts======================> */
 #conio{
     width: 100%;

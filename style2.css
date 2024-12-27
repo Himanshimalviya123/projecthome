@@ -292,10 +292,10 @@ font-size:xx-large;
 }
 .pro{
     margin-top: 10%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-bottom: 5%; 
     background-color:#7fd7eb !important;
-    width:90%;
+    width:100%;
     color:white;
     display: flex;
     border-top-right-radius: 20px;
@@ -430,6 +430,7 @@ font-size:xx-large;
      align-items: center;
      flex-direction: column;
      margin-top: 10%;
+     padding-left: 2%;
       overflow-x: hidden !important;
     }
     #connect .box2{
@@ -709,12 +710,16 @@ font-size:xx-large;
     /* <=========================latest product ends========================> */
     /* =======================product starts============================== */
     #product{
+        width: 100%;
+        height: auto;
         margin-top: 10%;
-        /* margin-left: 5%; */
-        margin-right: 5%;
+        /* margin-left: 5%;  */
+        /* margin-right: 5%; */
         margin-bottom: 5%; 
         background-color: #7fd7eb;
-        width:100%;
+        
+        /* padding-left: 2%; */
+        /* padding-right: 5%; */
         color:white;
         display: flex;
         flex-direction: column;
@@ -724,6 +729,12 @@ font-size:xx-large;
         border-bottom-right-radius: 20px;
         
     }
+    .pro img{
+        width: 80%;
+    }
+    .pro p{
+      width:70%;
+    }
     /* <============================products ends===========================> */
  
 
@@ -731,11 +742,13 @@ font-size:xx-large;
 
     /* <====================why us shop starts=======================> */
     #shop{
-        width: 450px;
-        height: auto;
-        overflow-x: hidden !important;
+        width: 100%;
+        /* padding-left: 2%; */
+
+        /* height: auto; */
+        /* overflow-x: hidden !important; */
         display:flex;
-        justify-content: center;
+        justify-content:space-between;
         flex-direction: column;
         align-items: center;
         }
@@ -745,6 +758,9 @@ font-size:xx-large;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin-top: 2%;
+        /* padding-left: 5%; */
+        /* padding-right: 55%; */
         border: 2px solid black;
         }
     #shop .shophead{
@@ -845,7 +861,7 @@ font-size:xx-large;
         color:gray; 
     }
     #test .team p{
-        width 50%;
+        width:100%;
     }
     /* <======================testimonal ends===================> */
     /* <=======================footer===============> */
